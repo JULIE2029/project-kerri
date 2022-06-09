@@ -57,6 +57,144 @@
         margin-right: 19rem;
     }
 }
+
+
+@media screen and (max-width:768px) {
+    /* about */
+    aboutsection .container {
+        display: flex;
+       
+    }
+    .aboutsection img.about-me {
+        height: 300px;
+    margin-top: 13rem;
+}
+.aboutsection .container .details {
+    padding: 1rem;
+}
+    
+    .details p {
+        text-align: justify;
+        flex-direction: column;
+        margin-top: 0;
+       
+        
+    }
+    .aboutsection .social-icon {
+       
+            /* padding: 1rem; */
+            font-size: -2px;
+            margin-right: -5rem;
+       
+    
+    }
+    /* service */
+    .serviceSection .card-wraper .card {
+        padding: 0.5rem 0.2rem;
+    }
+    /* last */
+    .last .last-container {
+        width: 100%;
+    }
+
+  .last .last-container .icon {
+    margin-right: 1rem;
+}
+.last-container p {
+    margin-right: 1rem;
+}
+    
+}
+
+
+@media screen and (max-width:600px) {
+    /* header */
+    img.branding {
+        margin-left: 13rem;
+    }
+    header .main-nav li {
+        margin-left: 1rem;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    /* about */
+    .aboutsection img.about-me {
+       margin-top: 0;
+       height: 385px;
+      
+    }
+   .container {
+    max-width: 1152px;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.blog .blogcard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0.1rem 1rem;
+}
+    
+    
+}
+
+@media screen and (max-width:460px) {
+    img.branding {
+        margin-left: 8rem;
+    }
+    header .main-nav li {
+        margin-left: 1rem;
+    }
+    header .hero {
+       margin-top: 1.5rem;
+    }
+    .hero h1 {
+        font-size: 1rem;
+    }
+    /* about */
+    .aboutsection img.about-me {
+    
+        height: 299px;
+    }
+    /* service */
+    .serviceSection .card-wraper {
+        gap: 18px;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    /* protfolio */
+    .protfolio-section .protfolio-tab ul li {
+        padding: 0.5rem;
+    }
+    .protfolio-section .letest-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem 1rem;
+    }
+    
+}
+
+@media screen and (max-width:540px) {
+    img.branding {
+        margin-left: 11rem;
+    }
+    .aboutsection img.about-me {
+        height: 351px;
+    }
+    /* protfolio */
+    .protfolio-section .protfolio-tab ul li {
+        padding: 0.5rem;
+    }
+    .protfolio-section .letest-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem 1rem;
+    }
+}
+
+
 @media screen and (max-width: 375px) {
 
     /* hero */
@@ -107,5 +245,22 @@
 
     .protfolio-section .letest-work {
         grid-template-columns: 1fr;
+    }
+    .inputSection {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .contactUs .YourName{
+        height: 2rem;
+    }
+    .contactUs .yourSub{
+        width: 100%;
+        height: 2rem;
+        margin-bottom: -44px;
+    }
+    .contactUs .yourMsg{
+        width: 100%;
+        height: 100%;
     }
 }
